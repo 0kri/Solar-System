@@ -21,10 +21,19 @@ body {
     position: absolute;
     width: 70px;
     height: 70px;
-    background: radial-gradient(circle at 40%, rgba(51, 51, 51, 0.4), rgba(51, 51, 51, 0.4) 50%, rgba(238, 238, 238, 0.151) 75%, rgba(51, 51, 51, 0.233) 75%), rgb(255, 230, 0);
+    /* background: radial-gradient(circle at 40%, 
+    rgba(51, 51, 51, 0.4),
+    rgba(51, 51, 51, 0.4) 50%,
+    rgba(238, 238, 238, 0.151) 75%,
+    rgba(51, 51, 51, 0.233) 75%),
+    rgb(255, 230, 0); */
     border-radius: 50%;
     left: 50%;
     margin: 40px 0 0 40px;
+    background-image: url(photo/sun.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 /* orbits */
 .container .mercury {
@@ -128,78 +137,105 @@ body {
     position: absolute;
     width: 18px;
     height: 18px;
-    background-color: gray;
     left: 50%;
     top: -7.5px;
     border-radius: 50%;
+    background-image: url(photo/mercury.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .venus::before {
     content: "";
     position: absolute;
     width: 25px;
     height: 25px;
-    background: conic-gradient(brown,gray);
     left: 50%;
     top: -10px;
     border-radius: 50%;
+    background-image: url(photo/venus.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .earth::before {
     content: "";
     position: absolute;
     width: 25px;
     height: 25px;
-    background: conic-gradient(blue,green);
     left: 50%;
     top: -10px;
     border-radius: 50%;
+    background-image: url(photo/ezgif.com-gif-maker.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .mars::before {
     content: "";
     position: absolute;
     width: 15px;
     height: 15px;
-    background: conic-gradient(red,tan);
+    /* background: conic-gradient(red,tan); */
     left: 50%;
     top: -10px;
     border-radius: 50%;
+    background-image: url(photo/mars.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .jupiter::before {
     content: "";
     position: absolute;
     width: 38px;
     height: 38px;
-    background: conic-gradient(gray,tan);
+    /* background: conic-gradient(gray,tan); */
     left: 50%;
     top: -17px;
     border-radius: 50%;
+    background-image: url(photo/jupiter.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .saturn::before {
     content: "";
     position: absolute;
     width: 34px;
     height: 34px;
-    background: conic-gradient(rgb(180, 167, 167),rgb(160, 113, 52));
+    /* background: conic-gradient(rgb(180, 167, 167),rgb(160, 113, 52)); */
     left: 50%;
     top: -17px;
     border-radius: 50%;
+    background-image: url(photo/saturn.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .uranus::before {
     content: "";
     position: absolute;
     width: 22px;
     height: 22px;
-    background: conic-gradient(rgb(21, 73, 216),rgb(177, 160, 138));
     left: 50%;
     top: -10px;
     border-radius: 50%;
+    background-image: url(photo/uranus.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .container .neptune::before {
     content: "";
     position: absolute;
     width: 22px;
     height: 22px;
-    background: conic-gradient(rgb(21, 73, 216),rgb(140, 187, 226));
     left: 50%;
     top: -10px;
     border-radius: 50%;
+    background-image: url(photo/neptune.gif);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
